@@ -18,7 +18,7 @@ Handles program options which are arguments passed with a leading `-` or `--` an
 #### Features:
 
 * Input validation
-* Customize seperators for associative array args
+* Customize separators for associative array args
 * Supports environment variables
 * Supports default values
 * Supports custom types that have a constructor that is called with a string
@@ -26,7 +26,7 @@ Handles program options which are arguments passed with a leading `-` or `--` an
 
 ### ProgramCommands ([docs](https://aliak00.github.io/dcli/dcli/program_commands.html))
 
-Provides a command handling and definitino framework. Allos you define a set of commands that can be accepted on the command line, and also invokes any given handlers for activated commands. Also integrated with `ProgramOptions`.
+Provides a command handling and definition framework. Allows you to define a set of commands that can be accepted on the command line, and also invokes any given handlers for activated commands. Also integrated with `ProgramOptions`.
 
 #### E.g.
 
